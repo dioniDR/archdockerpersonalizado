@@ -20,6 +20,7 @@ docker build -t archpersonalizado .
 
 ### 3️⃣ Prepara carpetas de trabajo (solo la primera vez)
 ```bash
+cd archdockerpersonalizado
 mkdir -p custom/airootfs/root/ai cache_pkg repo_local custom/out
 ```
 
