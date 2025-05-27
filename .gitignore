@@ -1,0 +1,31 @@
+# Archivos y carpetas a ignorar para mantener solo la personalización
+# No ignores archivos de configuración ni scripts propios
+
+# Paquetes descargados (no subir dependencias)
+cache_pkg/
+
+# Repositorio local generado
+repo_local/
+
+# Salida de la ISO compilada
+custom/out/
+
+# Carpeta de trabajo temporal de archiso
+custom/work/
+
+# Archivos temporales y de sistema
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Archivos de prueba antiguos
+/test_arch/
+
+# Archivos de log y temporales
+*.log
+
+# No ignores custom/airootfs/root/ai ni scripts de personalización
+# No ignores README.md, build_offline.sh, fix.sh, ni documentación
+custom/airootfs/root/ai/api/config.txt

@@ -1,0 +1,3 @@
+#!/bin/bash
+# Lanzador global para el asistente IA 'y' que siempre ejecuta desde su ubicación real
+cd /root/ai && ./y "$@"

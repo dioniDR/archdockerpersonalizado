@@ -1,0 +1,5 @@
+Comando para ejecutar el asistente:
+  y
+
+Ubicación del ejecutable:
+  /root/ai/y
