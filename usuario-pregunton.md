@@ -20,6 +20,14 @@ Este archivo documenta las preguntas realizadas por el usuario, los comandos eje
 4. **Documentar el flujo y contexto:**
    - Solicitó un archivo que resuma las preguntas, comandos, análisis y flujo de trabajo.
 
+5. **Dockerización y limpieza del proyecto:**
+   - Solicitó dockerizar el build, limpiar el historial de git, eliminar claves API y carpetas sensibles, y dejar el proyecto listo para subir a GitHub.
+   - Pidió instrucciones para reiniciar el proyecto desde cero y compilar la ISO en un entorno limpio.
+
+6. **Solución de problemas de push y seguridad en GitHub:**
+   - Se detectó y solucionó el bloqueo de push por presencia de claves API en el historial.
+   - Se documentó el proceso de limpieza y protección de secretos.
+
 ---
 
 ## Comandos y Acciones Ejecutadas
@@ -38,6 +46,13 @@ Este archivo documenta las preguntas realizadas por el usuario, los comandos eje
   ```
 - Actualización de `LEEME.txt` para reflejar el nuevo comando y ubicación.
 - Modificación de la guía de instalación (`guiaintalacionisoarch.md`) y creación de un `README.md` adaptado.
+- Dockerización del flujo de build y creación de `Dockerfile` y `INICIAR_PROYECTO.sh`.
+- Limpieza de claves API:
+  - Copia de `config.txt` fuera del proyecto.
+  - Eliminación del archivo y adición a `.gitignore`.
+  - Limpieza de carpetas de dependencias, binarios y salidas.
+- Re-inicialización del repositorio git y push limpio a GitHub.
+- Documentación de la solución a los bloqueos de seguridad de GitHub por secretos.
 
 ---
 
@@ -49,6 +64,9 @@ Este archivo documenta las preguntas realizadas por el usuario, los comandos eje
 4. **Eliminación de archivos y carpetas obsoletos** (`test_arch` y referencias a `gpt_arch`).
 5. **Actualización de scripts y documentación** para reflejar el nuevo flujo de trabajo.
 6. **Validación de que el asistente IA (`y`) esté listo para usarse** tras la compilación de la ISO.
+7. **Dockerización y automatización del build** para entornos limpios y reproducibles.
+8. **Limpieza de claves y protección de secretos** antes de subir a GitHub.
+9. **Reinicio del proyecto y push exitoso al repositorio remoto.**
 
 ---
 
@@ -57,6 +75,8 @@ Este archivo documenta las preguntas realizadas por el usuario, los comandos eje
 - Instrucciones claras para adaptar el flujo de trabajo al nuevo asistente `y`.
 - Scripts y documentación actualizados.
 - Confirmación de la eliminación de elementos antiguos y la correcta configuración del entorno.
+- Guía paso a paso para dockerizar, limpiar y reiniciar el proyecto.
+- Solución a problemas de seguridad y push en GitHub.
 
 ---
 
